@@ -1,0 +1,112 @@
+
+body {
+    background: url("../img/gif8.gif") repeat fixed center top #0f6f6e;
+    background-size: 1024px auto;
+
+    padding: 25px 30px;
+    font-family: 'Yeseva One', cursive;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+}
+h2, h3 {
+    margin-top: 15px;
+    border-bottom: 1px solid darkslategrey;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    color: black;
+    text-align: center;
+
+}
+p{
+    border: 1px solid rgba(255, 255,255,0.5);
+    padding: 5px 10px;
+    color: rgb(255, 255,255);
+    margin-top: 12px;
+
+}
+h2{
+    text-decoration: none;
+    margin: 15px 40px;
+    display: inline-block;
+    color: #2b1e57;
+}
+
+
+h2:hover{
+    transform: scale(1.2);
+    color: #dbff0e;
+    transition-property: color, transform;
+    transition-duration: 4s, 2s;
+
+
+}
+
+.main{
+    width: 48%;
+    float: left;
+}
+
+.introducing{
+    color: rgb(255, 255,255);
+}
+
+a.social_net_link{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-size: cover;
+}
+.facebook_link {
+    background-image: url(../img/facebook.svg);
+}
+.instagram_link{
+    background-image: url(../img/instagram.svg);
+}
+.linkedin_link{
+    background-image: url(../img/linkedin.svg);
+}
+.telegram_link{
+    background-image: url(../img/telegram.svg);
+}
+
+.occupation{
+    text-transform: uppercase;
+}
+
+ul{
+    list-style-type:inherit;
+    max-height: 350px;
+    overflow: auto;
+    box-shadow: 5px 10px 20px #ffffff;
+}
+li{
+    color: #fbfbff;
+}
+.sky{
+    max-width: 48%;
+    margin-top: 12px;
+}
+.globe{
+    max-width: 200px;
+    display: block;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin: 0 auto 30px auto;
+    animation: 5s linear infinite rotate;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+footer{
+    max-width: 760px;
+    margin-bottom: 50px;
+}
